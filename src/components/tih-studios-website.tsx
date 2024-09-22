@@ -12,8 +12,8 @@ export function TihStudiosWebsite() {
   const [activeTab, setActiveTab] = useState("home")
 
   const teamMembers = [
-    { name: "Alice Johnson", role: "Project Leader", bio: "5+ years of consulting experience", website: "https://alice-johnson.com" },
-    { name: "Bob Smith", role: "Senior Advisor", bio: "Expert in market research and analysis", website: "https://bob-smith.com" },
+    { name: "Hy Nguyen", role: "Project Leader", bio: "5+ years of consulting experience", website: "https://alice-johnson.com" },
+    { name: "Marcus Chua", role: "Senior Advisor", bio: "Expert in market research and analysis", website: "https://bob-smith.com" },
     { name: "Carol Williams", role: "Consultant", bio: "Specializes in go-to-market strategies", website: "https://carol-williams.com" },
     { name: "David Brown", role: "Consultant", bio: "Data analysis and visualization expert", website: "https://david-brown.com" },
     { name: "Eva Garcia", role: "Senior Advisor", bio: "Former startup founder and mentor", website: "https://eva-garcia.com" },
@@ -348,6 +348,7 @@ export function TihStudiosWebsite() {
             </section>
           </div>
         </TabsContent>
+        
       </Tabs>
 
       {/* Footer */}

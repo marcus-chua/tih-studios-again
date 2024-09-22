@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import {TihStudiosWebsite} from "@/components/tih-studios-website";
 
 export default function Home() {
