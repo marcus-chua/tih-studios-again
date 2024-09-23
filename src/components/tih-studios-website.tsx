@@ -95,7 +95,7 @@ export function TihStudiosWebsite() {
               <p className="mx-auto mt-3 max-w-md text-base sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
                 TIH Studios: Empowering innovation through cutting-edge strategies and seamless implementation.
               </p>
-              <div className="mt-8">
+              {/*<div className="mt-8">
                 <motion.a
                   href={randomWebsite}
                   className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
@@ -104,7 +104,7 @@ export function TihStudiosWebsite() {
                 >
                   Contact Us
                 </motion.a>
-              </div>
+  </div>*/}
             </motion.div>
           </motion.div>
 

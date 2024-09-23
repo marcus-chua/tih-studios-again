@@ -26,6 +26,20 @@ body {
   }
 }
 
+@layer utilities {
+  .layout-container {
+    @apply flex flex-col min-h-screen;
+  }
+
+  .main-content {
+    @apply flex-grow;
+  }
+
+  .navbar {
+    @apply w-full sticky top-0 z-50;
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -53,6 +67,22 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+  }
+
+  * {
+    @apply box-border p-0 m-0;
+  }
+
+  html, body {
+    @apply h-full w-full overflow-x-hidden;
+  }
+
+  body {
+    @apply bg-background text-foreground min-h-screen;
+  }
+
+  #__next {
+    @apply min-h-screen flex flex-col;
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -88,5 +118,13 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  html, body, #__next {
+    @apply h-full w-full m-0 p-0;
+  }
+
+  body {
+    @apply bg-background text-foreground min-h-screen;
   }
 }
